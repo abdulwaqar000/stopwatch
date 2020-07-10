@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch Web Application</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Frijole&family=Special+Elite&display=swap" rel="stylesheet">
+
+
+<body>
+
+    <div class="main">
+        <div class="heading">
+            <h2>STOPWATCH</h2>
+        </div>
+
+
+        <h1 id="minheading">00:</h1>
+        <h1 id="secheading">00.</h1>
+        <h1 id="miliheading">00</h1>
+
+
+
+        <div class="records">
+            <table>
+                <tr>
+                    <td id="recordNumber"></td>
+                    <td id="record"></td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div class="btns">
+
+            <button id="btnstart" onclick="start()">START</button>
+            <button id="btnreset" onclick="reset()" disabled>RESET</button>
+
+        </div>
+
+        <div class="footer">
+            <h3>Created By -> ABDUL WAQAR</h3>
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
